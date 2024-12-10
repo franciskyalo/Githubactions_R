@@ -21,7 +21,7 @@ jobs:
 
     - name: Install required packages
       run: |
-        install.packages("ggplot2")
+        Rscript -e 'install.packages(c("ggplot2")
 
     - name: Execute R Script
       run: |
